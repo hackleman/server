@@ -16,6 +16,7 @@ services:
       - '32118:1521'
       - '35518:5500'
     volumes:
+      - ../data/oracle:/opt/oracle/oradata
     environment:
       - ORACLE_PWD=Oracle18   
   nginx:
