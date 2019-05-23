@@ -1,16 +1,26 @@
 import React, {Component} from 'react';
-import AppNavbar from './components/appnavbar';
-import ShoppingList from './components/shoppinglist';
+
+import Posts from './components/posts';
+import PostForm from './components/postform';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import { Provider } from 'react-redux';
+
+import store from './store';
+
 function App() {
+
   return (
+    <Provider store={store}>
     <div className="App">
-      <AppNavbar/>
-      <ShoppingList/>
+      <PostForm />
+      <hr />
+      <Posts />
     </div>
+    </Provider>
+    
   );
 }
 

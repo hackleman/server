@@ -20,3 +20,8 @@
     opacity: 0.01;
     transition: opacity 500ms ease-in;
 }
+
+.App {
+    width: 90%;
+    margin: auto;
+}
