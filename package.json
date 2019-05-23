@@ -1,0 +1,43 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "description": "CIS 4301 practice app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "oracle": "nodemon oracle.js",
+    "mongo": "nodemon mongo.js",
+    "react": "cd ../app && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run react\""
+  },
+  "author": "Jason Hackleman",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "^1.19.0",
+    "cisco-vpn": "^1.0.2",
+    "cors": "^2.8.5",
+    "csvtojson": "^2.0.8",
+    "express": "^4.16.4",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "morgan": "^1.9.1",
+    "oracledb": "^3.1.2",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "devDependencies": {
+    "concurrently": "^3.6.1",
+    "grunt": "^1.0.4",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-nodemon": "^0.4.2"
+  }
+}
