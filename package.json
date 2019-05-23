@@ -9,7 +9,7 @@
     "server": "nodemon index.js",
     "oracle": "nodemon oracle.js",
     "mongo": "nodemon mongo.js",
-    "react": "cd ../app && npm start",
+    "react": "cd ./app && npm start",
     "dev": "concurrently \"npm run server\" \"npm run react\""
   },
   "author": "Jason Hackleman",
