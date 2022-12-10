@@ -18,7 +18,7 @@
     "cisco-vpn": "^1.0.2",
     "cors": "^2.8.5",
     "csvtojson": "^2.0.8",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "ip": "^1.1.5",
     "jsonwebtoken": "*",
     "mongoose": "*",
